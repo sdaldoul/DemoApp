@@ -25,7 +25,7 @@ eventsApp.controller('EventController',
                 {
                     name : 'Directive',
                     creatorName : 'daldoul',
-                    duration : 'ada',
+                    duration : 1,
                     level: 'advanced',
                     abstract : 'azdaz',
                     upVoteCount :0
@@ -33,7 +33,7 @@ eventsApp.controller('EventController',
                 {
                     name : 'scopa',
                     creatorName : 'daldoul',
-                    duration : 'ada',
+                    duration : 2,
                     level: 'adazd',
                     abstract : 'azdaz',
                     upVoteCount :0
@@ -41,7 +41,7 @@ eventsApp.controller('EventController',
                 {
                     name : 'Directive',
                     creatorName : 'daldoul',
-                    duration : 'ada',
+                    duration : 4,
                     level: 'adazd',
                     abstract : 'azdaz',
                     upVoteCount :0
