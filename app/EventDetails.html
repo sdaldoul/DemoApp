@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/app.css">
 </head>
-<body>
+
+
+<body ng-cloak="">
 
 <div class="container">
     <div class="navbar">
@@ -21,10 +23,13 @@
 
 
         <img ng-src="{{event.imageUrl}}" alt="{{event.name}}"/>
-        <div ng-bind-html-unsafe="snippet">some title</div>
-        <div ng-bind-html="snippet">some title</div>
 
-        <h2 ng-show="boolValue"> show this</h2>
+        <button class="btn" ng-disabled="buttonDisabled">Disabled</button>
+        <div  ng-bind-html-unsafe="snippet">some title</div>
+        <div  ng-bind-html="snippet">some title</div>
+        <div ng-non-bindable >{{1 +2 }}</div>
+
+        <h2 ng-class="myclass" ng-show="boolValue"> show this</h2>
         <h2 ng-hide="boolValue"> hide this</h2>
 
         <div class="row">
