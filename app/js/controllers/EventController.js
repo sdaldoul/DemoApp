@@ -4,6 +4,7 @@ eventsApp.controller('EventController',
     function EventController($scope) {
         $scope.snippet = '<span style ="color:red"> hi there <span/>';
         $scope.boolValue = true;
+        $scope.sortorder = 'name';
         $scope.buttonDisabled = true;
         $scope.mystyle = {color:'red'};
         $scope.myclass = "blue";
@@ -25,7 +26,7 @@ eventsApp.controller('EventController',
                     name : 'Directive',
                     creatorName : 'daldoul',
                     duration : 'ada',
-                    level: 'adazd',
+                    level: 'advanced',
                     abstract : 'azdaz',
                     upVoteCount :0
     },
