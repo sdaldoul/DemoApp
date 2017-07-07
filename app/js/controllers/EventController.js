@@ -2,9 +2,11 @@
 
 eventsApp.controller('EventController',
     function EventController($scope) {
+        $scope.snippet = '<span style ="color:red"> hi there <span/>';
+        $scope.boolValue = false;
         $scope.event = {
 
-            name : 'Angular js',
+            name : 'Angular js 2',
             date : '1/1/2013',
             time : '10:30 am',
             location : {
